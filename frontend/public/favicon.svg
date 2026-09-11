@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Outer ring -->
+  <circle cx="32" cy="32" r="26" />
+  <!-- Inner ring -->
+  <circle cx="32" cy="32" r="21" />
+  <!-- Innermost ring -->
+  <circle cx="32" cy="32" r="16" />
+
+  <!-- Compass / target spikes (N, S, E, W) -->
+  <polyline points="32,2 28,8 36,8 32,2" />
+  <polyline points="32,62 28,56 36,56 32,62" />
+  <polyline points="2,32 8,28 8,36 2,32" />
+  <polyline points="62,32 56,28 56,36 62,32" />
+
+  <!-- Crosshair lines -->
+  <line x1="6" y1="32" x2="20" y2="32" />
+  <line x1="44" y1="32" x2="58" y2="32" />
+  <line x1="32" y1="6" x2="32" y2="20" />
+  <line x1="32" y1="44" x2="32" y2="58" />
+
+  <!-- Bug: antennae -->
+  <path d="M28 20 L26 16" />
+  <path d="M36 20 L38 16" />
+
+  <!-- Bug: head -->
+  <circle cx="32" cy="24" r="3.2" fill="#ffffff" />
+
+  <!-- Bug: thorax -->
+  <path d="M29 28 L35 28 L34 33 L30 33 Z" fill="#ffffff" stroke="none" />
+
+  <!-- Bug: abdomen -->
+  <ellipse cx="32" cy="40" rx="4.5" ry="6.5" fill="#ffffff" stroke="none" />
+
+  <!-- Bug: legs (3 per side) -->
+  <path d="M30 30 L23 28" />
+  <path d="M30 33 L22 34" />
+  <path d="M30 36 L23 40" />
+  <path d="M34 30 L41 28" />
+  <path d="M34 33 L42 34" />
+  <path d="M34 36 L41 40" />
+</svg>

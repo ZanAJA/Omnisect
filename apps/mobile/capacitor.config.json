@@ -1,0 +1,12 @@
+{
+  "appId": "com.omnisect.app",
+  "appName": "Omnisect",
+  "webDir": "../../frontend/dist",
+  "server": {
+    "cleartext": true,
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}
